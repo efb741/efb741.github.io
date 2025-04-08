@@ -4,83 +4,116 @@
     <title>Elizabeth's Portfolio</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Ledger&family=Nixie+One&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet" />    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <h1 class="heading">Hello World!</h1>
-    <p>
-        I am Elizabeth Billings, a full-stack software engineer with six years of experience creating modern web applications.
-    </p>
+    <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li class="hidden-mobile"><a href="#skills">Skills</a></li>
+          <li class="hidden-mobile"><a href="#experience">Experience</a></li>
+          <li class="hidden-mobile"><a href="#education">Education</a></li>
+          <li class="hidden-mobile"><a href="#development">Professional Development</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
 
-    <h2 class="heading">Skills</h2>
-    <ul>
-        <li>.NET</li>
-        <li>C#</li>
-        <li>T-SQL / SQL Server</li>
-        <li>JavaScript</li>
-        <li>TypeScript</li>
-        <li>Angular</li>
-        <li>HTML / CSS</li>
-        <li>Active Batch</li>
-        <li>Azure DevOps</li>
-        <li>Docker</li>
-    </ul>
+    <div class="container">
+        <section id="home">
+            <h1>Hello World!</h1>
+            <p>
+                I am <b>Elizabeth Billings</b>, a full-stack software engineer with six years of experience creating modern web applications.
+            </p>
+        </section>
 
-    <h2 class="heading">Professional Experience</h2>    
-    <ul>
-        <li>Xtra Lease, Saint Louis, MO :: Application Developer :: May 2022 - Present
-            <ul>    
-                <li>Built a scalable, responsive dashboard that consolidated tracking unit status, location data, and maintenance information into an intuitive interface, significantly improving operational decision-making speed</li>
-                <li>Migrated pipeline infrastructure from legacy Octopus/Jenkins systems to Azure DevOps, consolidating DevOps tooling to streamline release management and enhance deployment reliability across the organization
-                </li>
-                <li>Worked with a team of two other engineers to replace a legacy application with a modern, responsive web application used on tablets, mobile devices, and computers by company employees to manage trailer fleet and other necessary functions for the company
-                </li>
-            </ul>
-        </li>
-        <li>Mindtree, Remote :: Support Engineer :: November 2021 - May 2022
+        <section id="skills">
+            <h2>Skills</h2>
             <ul>
-                <li>Assisted enterprise customers with Microsoft Azure Batch and Storage 
-                </li>
-                <li>Created and maintained documentation for use by fellow employees to help reduce time needed to assist customers and to organize and improve onboarding for new employees
-                </li>
-                <li>Trained employees on batch job scheduling, cloud computing, and NoSQL data stores 
-                </li>
+                <li>.NET</li>
+                <li>C#</li>
+                <li>T-SQL / SQL Server</li>
+                <li>JavaScript</li>
+                <li>TypeScript</li>
+                <li>Angular</li>
+                <li>HTML / CSS</li>
+                <li>Active Batch</li>
+                <li>Azure DevOps</li>
+                <li>Docker</li>
             </ul>
-        </li>
-        <li>
-            Revature, Charlotte, NC :: Full-Stack Developer :: August 2019 - November 2021
-            <ul>
-                <li>Developed software with various teams using both .NET and Java including insurance, housing, and transportation projects that were focused on security and ease-of-use
-                </li>
-                <li>Designed responsive web pages using HTML, CSS, JavaScript, Angular, and Bootstrap
-                </li>
-                <li>Mentored interns in agile software-development, test-driven development, and designing and creating accessible, semantic front-ends
-                </li>
-                <li>Created reports using SQL Server for government reporting, medical research, and internal use for Medicare and Medicaid medical coverage
-                </li>
-            </ul>
-        </li>
-    </ul>
+        </section>
 
-    <h2 class="heading">Education</h2>    
-    <ul>
-        <li>Saint Louis University, Saint Louis, Missouri :: Post-Baccalaureate Cybersecurity :: August 2023 - May 2024
+        <section id="experience">
+        <h2>Professional Experience</h2>    
             <ul>
-                <li>Learned about the principles of cybersecurity, including confidentiality, integrity, and availability (CIA) concepts, developing an information systems security management program, and performing and documenting risk-based analysis of existing information system security</li>
-                <li>Studied Data Administration using Linux and Windows, including regulatory compliance, auditing and logging, encryption, and authentication and authorization</li>
+                <li><b>Xtra Lease</b> | Saint Louis, MO | <b>Application Developer</b> | May 2022 - Present
+                    <ul>    
+                        <li>Built a scalable, responsive dashboard that consolidated tracking unit status, location data, and maintenance information into an intuitive interface, significantly improving operational decision-making speed</li>
+                        <li>Migrated pipeline infrastructure from legacy Octopus/Jenkins systems to Azure DevOps, consolidating DevOps tooling to streamline release management and enhance deployment reliability across the organization
+                        </li>
+                        <li>Worked with a team of two other engineers to replace a legacy application with a modern, responsive web application used on tablets, mobile devices, and computers by company employees to manage trailer fleet and other necessary functions for the company
+                        </li>
+                    </ul>
+                </li>
+                <li><b>Mindtree</b> | Remote | <b>Support Engineer</b> | November 2021 - May 2022
+                    <ul>
+                        <li>Assisted enterprise customers with Microsoft Azure Batch and Storage 
+                        </li>
+                        <li>Created and maintained documentation for use by fellow employees to help reduce time needed to assist customers and to organize and improve onboarding for new employees
+                        </li>
+                        <li>Trained employees on batch job scheduling, cloud computing, and NoSQL data stores 
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <b>Revature</b> | Charlotte, NC | <b>Full-Stack Developer</b> | August 2019 - November 2021
+                    <ul>
+                        <li>Developed software with various teams using both .NET and Java including insurance, housing, and transportation projects that were focused on security and ease-of-use
+                        </li>
+                        <li>Designed responsive web pages using HTML, CSS, JavaScript, Angular, and Bootstrap
+                        </li>
+                        <li>Mentored interns in agile software-development, test-driven development, and designing and creating accessible, semantic front-ends
+                        </li>
+                        <li>Created reports using SQL Server for government reporting, medical research, and internal use for Medicare and Medicaid medical coverage
+                        </li>
+                    </ul>
+                </li>
             </ul>
-        </li>
-        <li>Northwest Missouri State University, Maryville, Missouri :: Bachelor of Science Computer Science :: August 2015 - May 2019  
-        </li>
-    </ul>
+        </section>
 
-    <h2 class="heading">Professional Development</h2>    
-    <ul>
-        <li>
-            Formation, Remote :: Software Engineer Fellowship :: January 2025 - Present
-        </li>
-    </ul>
+        <section id="education">
+            <h2>Education</h2>    
+            <ul>
+                <li><b>Saint Louis University</b> | Saint Louis, Missouri | <b>Post-Baccalaureate Cybersecurity</b> | August 2023 - May 2024
+                    <ul>
+                        <li>Learned about the principles of cybersecurity, including confidentiality, integrity, and availability (CIA) concepts, developing an information systems security management program, and performing and documenting risk-based analysis of existing information system security</li>
+                        <li>Studied Data Administration using Linux and Windows, including regulatory compliance, auditing and logging, encryption, and authentication and authorization</li>
+                    </ul>
+                </li>
+                <li><b>Northwest Missouri State University</b> | Maryville, Missouri | <b>Bachelor of Science Computer Science</b> | August 2015 - May 2019  
+                </li>
+            </ul>
+        </section>
+
+        <section id="development">
+            <h2>Professional Development</h2>    
+            <ul>
+                <li>
+                    <b>Formation</b> | Remote | <b>Software Engineer Fellowship</b> | January 2025 - Present
+                </li>
+            </ul>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Please reach out via <span id="email"></span> or connect with me on <a href="https://www.linkedin.com/in/efrancesbillings/">LinkedIn</a>!</p>
+            <script>
+                const u = "efbillings96";
+                const d = "gmail.com";
+                const e = `${u}@${d}`;
+                document.getElementById("email").innerHTML = `<a href="mailto:${e}">${e}</a>`;
+              </script>
+          </section>
+    </div>
 </body>
 </html>
